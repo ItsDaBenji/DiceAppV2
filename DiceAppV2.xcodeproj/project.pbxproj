@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E84CB0DE292AE3F400ADAE68 /* DiceAppV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84CB0DD292AE3F400ADAE68 /* DiceAppV2App.swift */; };
+		E84CB0E0292AE3F400ADAE68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84CB0DF292AE3F400ADAE68 /* ContentView.swift */; };
+		E84CB0E2292AE3F600ADAE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84CB0E1292AE3F600ADAE68 /* Assets.xcassets */; };
+		E84CB0E6292AE3F600ADAE68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84CB0E5292AE3F600ADAE68 /* Preview Assets.xcassets */; };
+		E84CB0F0292AE3F600ADAE68 /* DiceAppV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84CB0EF292AE3F600ADAE68 /* DiceAppV2Tests.swift */; };
+		E84CB0FA292AE3F600ADAE68 /* DiceAppV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84CB0F9292AE3F600ADAE68 /* DiceAppV2UITests.swift */; };
+		E84CB0FC292AE3F600ADAE68 /* DiceAppV2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84CB0FB292AE3F600ADAE68 /* DiceAppV2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E84CB0EC292AE3F600ADAE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84CB0D2292AE3F400ADAE68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84CB0D9292AE3F400ADAE68;
+			remoteInfo = DiceAppV2;
+		};
+		E84CB0F6292AE3F600ADAE68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84CB0D2292AE3F400ADAE68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84CB0D9292AE3F400ADAE68;
+			remoteInfo = DiceAppV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E84CB0DA292AE3F400ADAE68 /* DiceAppV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceAppV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84CB0DD292AE3F400ADAE68 /* DiceAppV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceAppV2App.swift; sourceTree = "<group>"; };
+		E84CB0DF292AE3F400ADAE68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E84CB0E1292AE3F600ADAE68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E84CB0E3292AE3F600ADAE68 /* DiceAppV2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiceAppV2.entitlements; sourceTree = "<group>"; };
+		E84CB0E5292AE3F600ADAE68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E84CB0EB292AE3F600ADAE68 /* DiceAppV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceAppV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84CB0EF292AE3F600ADAE68 /* DiceAppV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceAppV2Tests.swift; sourceTree = "<group>"; };
+		E84CB0F5292AE3F600ADAE68 /* DiceAppV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceAppV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84CB0F9292AE3F600ADAE68 /* DiceAppV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceAppV2UITests.swift; sourceTree = "<group>"; };
+		E84CB0FB292AE3F600ADAE68 /* DiceAppV2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceAppV2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84CB0D7292AE3F400ADAE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84CB0E8292AE3F600ADAE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84CB0F2292AE3F600ADAE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E84CB0D1292AE3F400ADAE68 = {
+			isa = PBXGroup;
+			children = (
+				E84CB0DC292AE3F400ADAE68 /* DiceAppV2 */,
+				E84CB0EE292AE3F600ADAE68 /* DiceAppV2Tests */,
+				E84CB0F8292AE3F600ADAE68 /* DiceAppV2UITests */,
+				E84CB0DB292AE3F400ADAE68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E84CB0DB292AE3F400ADAE68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84CB0DA292AE3F400ADAE68 /* DiceAppV2.app */,
+				E84CB0EB292AE3F600ADAE68 /* DiceAppV2Tests.xctest */,
+				E84CB0F5292AE3F600ADAE68 /* DiceAppV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E84CB0DC292AE3F400ADAE68 /* DiceAppV2 */ = {
+			isa = PBXGroup;
+			children = (
+				E84CB0DD292AE3F400ADAE68 /* DiceAppV2App.swift */,
+				E84CB0DF292AE3F400ADAE68 /* ContentView.swift */,
+				E84CB0E1292AE3F600ADAE68 /* Assets.xcassets */,
+				E84CB0E3292AE3F600ADAE68 /* DiceAppV2.entitlements */,
+				E84CB0E4292AE3F600ADAE68 /* Preview Content */,
+			);
+			path = DiceAppV2;
+			sourceTree = "<group>";
+		};
+		E84CB0E4292AE3F600ADAE68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E84CB0E5292AE3F600ADAE68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E84CB0EE292AE3F600ADAE68 /* DiceAppV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E84CB0EF292AE3F600ADAE68 /* DiceAppV2Tests.swift */,
+			);
+			path = DiceAppV2Tests;
+			sourceTree = "<group>";
+		};
+		E84CB0F8292AE3F600ADAE68 /* DiceAppV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E84CB0F9292AE3F600ADAE68 /* DiceAppV2UITests.swift */,
+				E84CB0FB292AE3F600ADAE68 /* DiceAppV2UITestsLaunchTests.swift */,
+			);
+			path = DiceAppV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E84CB0D9292AE3F400ADAE68 /* DiceAppV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84CB0FF292AE3F600ADAE68 /* Build configuration list for PBXNativeTarget "DiceAppV2" */;
+			buildPhases = (
+				E84CB0D6292AE3F400ADAE68 /* Sources */,
+				E84CB0D7292AE3F400ADAE68 /* Frameworks */,
+				E84CB0D8292AE3F400ADAE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceAppV2;
+			productName = DiceAppV2;
+			productReference = E84CB0DA292AE3F400ADAE68 /* DiceAppV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E84CB0EA292AE3F600ADAE68 /* DiceAppV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84CB102292AE3F600ADAE68 /* Build configuration list for PBXNativeTarget "DiceAppV2Tests" */;
+			buildPhases = (
+				E84CB0E7292AE3F600ADAE68 /* Sources */,
+				E84CB0E8292AE3F600ADAE68 /* Frameworks */,
+				E84CB0E9292AE3F600ADAE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84CB0ED292AE3F600ADAE68 /* PBXTargetDependency */,
+			);
+			name = DiceAppV2Tests;
+			productName = DiceAppV2Tests;
+			productReference = E84CB0EB292AE3F600ADAE68 /* DiceAppV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E84CB0F4292AE3F600ADAE68 /* DiceAppV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84CB105292AE3F600ADAE68 /* Build configuration list for PBXNativeTarget "DiceAppV2UITests" */;
+			buildPhases = (
+				E84CB0F1292AE3F600ADAE68 /* Sources */,
+				E84CB0F2292AE3F600ADAE68 /* Frameworks */,
+				E84CB0F3292AE3F600ADAE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84CB0F7292AE3F600ADAE68 /* PBXTargetDependency */,
+			);
+			name = DiceAppV2UITests;
+			productName = DiceAppV2UITests;
+			productReference = E84CB0F5292AE3F600ADAE68 /* DiceAppV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84CB0D2292AE3F400ADAE68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E84CB0D9292AE3F400ADAE68 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E84CB0EA292AE3F600ADAE68 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E84CB0D9292AE3F400ADAE68;
+					};
+					E84CB0F4292AE3F600ADAE68 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E84CB0D9292AE3F400ADAE68;
+					};
+				};
+			};
+			buildConfigurationList = E84CB0D5292AE3F400ADAE68 /* Build configuration list for PBXProject "DiceAppV2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E84CB0D1292AE3F400ADAE68;
+			productRefGroup = E84CB0DB292AE3F400ADAE68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84CB0D9292AE3F400ADAE68 /* DiceAppV2 */,
+				E84CB0EA292AE3F600ADAE68 /* DiceAppV2Tests */,
+				E84CB0F4292AE3F600ADAE68 /* DiceAppV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E84CB0D8292AE3F400ADAE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84CB0E6292AE3F600ADAE68 /* Preview Assets.xcassets in Resources */,
+				E84CB0E2292AE3F600ADAE68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84CB0E9292AE3F600ADAE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84CB0F3292AE3F600ADAE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84CB0D6292AE3F400ADAE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84CB0E0292AE3F400ADAE68 /* ContentView.swift in Sources */,
+				E84CB0DE292AE3F400ADAE68 /* DiceAppV2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84CB0E7292AE3F600ADAE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84CB0F0292AE3F600ADAE68 /* DiceAppV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84CB0F1292AE3F600ADAE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84CB0FA292AE3F600ADAE68 /* DiceAppV2UITests.swift in Sources */,
+				E84CB0FC292AE3F600ADAE68 /* DiceAppV2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E84CB0ED292AE3F600ADAE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84CB0D9292AE3F400ADAE68 /* DiceAppV2 */;
+			targetProxy = E84CB0EC292AE3F600ADAE68 /* PBXContainerItemProxy */;
+		};
+		E84CB0F7292AE3F600ADAE68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84CB0D9292AE3F400ADAE68 /* DiceAppV2 */;
+			targetProxy = E84CB0F6292AE3F600ADAE68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E84CB0FD292AE3F600ADAE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E84CB0FE292AE3F600ADAE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E84CB100292AE3F600ADAE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DiceAppV2/DiceAppV2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiceAppV2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ItsDaBenji.DiceAppV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E84CB101292AE3F600ADAE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DiceAppV2/DiceAppV2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiceAppV2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ItsDaBenji.DiceAppV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E84CB103292AE3F600ADAE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ItsDaBenji.DiceAppV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceAppV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiceAppV2";
+			};
+			name = Debug;
+		};
+		E84CB104292AE3F600ADAE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ItsDaBenji.DiceAppV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceAppV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiceAppV2";
+			};
+			name = Release;
+		};
+		E84CB106292AE3F600ADAE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ItsDaBenji.DiceAppV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiceAppV2;
+			};
+			name = Debug;
+		};
+		E84CB107292AE3F600ADAE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ItsDaBenji.DiceAppV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiceAppV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84CB0D5292AE3F400ADAE68 /* Build configuration list for PBXProject "DiceAppV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84CB0FD292AE3F600ADAE68 /* Debug */,
+				E84CB0FE292AE3F600ADAE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84CB0FF292AE3F600ADAE68 /* Build configuration list for PBXNativeTarget "DiceAppV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84CB100292AE3F600ADAE68 /* Debug */,
+				E84CB101292AE3F600ADAE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84CB102292AE3F600ADAE68 /* Build configuration list for PBXNativeTarget "DiceAppV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84CB103292AE3F600ADAE68 /* Debug */,
+				E84CB104292AE3F600ADAE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84CB105292AE3F600ADAE68 /* Build configuration list for PBXNativeTarget "DiceAppV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84CB106292AE3F600ADAE68 /* Debug */,
+				E84CB107292AE3F600ADAE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84CB0D2292AE3F400ADAE68 /* Project object */;
+}
